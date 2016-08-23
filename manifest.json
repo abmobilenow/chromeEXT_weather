@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather plugin",
+  "description": "This extension will display current weather based on location",
+  "version": "1.0",
+  "icons": {
+    "16": "weather16.png",
+    "48": "weather48.png",
+    "128": "weather128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "weather16.png",
+    "default_popup": "weather.html"
+  },
+  "permissions": ["activeTab", "geolocation", "https://*/"
+  ]
+}

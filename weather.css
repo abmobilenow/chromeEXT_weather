@@ -1,0 +1,18 @@
+body {
+  width: 390px;
+  height: 280px;
+  text-align: center;
+}
+
+.forecast {
+  width: 50px;
+  background: lightblue;
+  padding: 5px;
+  text-align: center;
+  border: solid;
+  float: left;
+}
+
+#weatherDisplay {
+  font-size: 1em;
+}
