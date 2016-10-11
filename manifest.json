@@ -14,6 +14,6 @@
     "default_icon": "weather16.png",
     "default_popup": "weather.html"
   },
-  "permissions": ["activeTab", "geolocation", "https://*/"
+  "permissions": ["activeTab", "geolocation", "https://*/", "alarms"
   ]
 }
